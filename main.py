@@ -22,6 +22,6 @@ if image is not None:
     vector = np.array(image)
     label = str(st.write(model.predict(vector))[0])
 
-  st.header('Result')
-  st.text(class_list[label])
+    st.header('Result')
+    st.text(class_list[label])
     
